@@ -8,17 +8,12 @@ https://ollama.com/library/glm-5.2
 
 from datetime import datetime
 from ollama import chat
+from langchain_huggingface import HuggingFaceEmbeddings # Embedding
 
-# Load Docs
-
-# Chunk Docs
-
-# Create Embeddings
 
 # Get User Query
+# custom morning, afternoon, and evening messages
 hour = datetime.now().hour
-
-# Cute custom morning, afternoon, and evening messages
 if hour > 6 and hour < 12:
     query = input("Good Morning! What would you like to know ✨")
 elif hour >= 12 and hour < 18:
@@ -26,15 +21,23 @@ elif hour >= 12 and hour < 18:
 else:
     query = input("Hello Night Owl! What would you like to know ✨")
 
-# Embed Query
+# Embedding model
+embedding_model = HuggingFaceEmbeddings(model_name="sentence-transformers/all-MiniLM-L6-v2")
 
-# Similarity search with vector db
+# Run until user is done
+while (query is not None):
+    query = input("What else can I answer for you?")
+    
+    # Embed Query
+    embedded_query = embedding_model.embed_query(query)
+    
+    # Similarity search with vector db
 
-# Retrive chunks
+    # Retrive chunks
 
-# Feed to LLm
-response = chat(
-    model="llama3.2:1b",
-    messages=[{'role': 'user', 'content': query}],
-)
-print(response.message.content)
+    # Feed to LLm
+    response = chat(
+        model="llama3.2:1b",
+        messages=[{'role': 'user', 'content': query}],
+    )
+    print(response.message.content)

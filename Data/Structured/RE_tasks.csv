@@ -1,0 +1,25 @@
+Importance,Category,Task
+78,Core,"Review or approve designs, calculations, or cost estimates."
+76,Core,Process or interpret signals or sensor data.
+73,Core,Debug robotics programs.
+72,Core,"Build, configure, or test robots or robotic applications."
+71,Core,Create back-ups of robot programs or parameters.
+70,Core,Provide technical support for robotic systems.
+70,Core,Design end-of-arm tooling.
+70,Core,"Design robotic systems, such as automatic vehicle control, autonomous vehicles, advanced displays, advanced sensing, robotic platforms, computer vision, or telematics systems."
+69,Core,"Supervise technologists, technicians, or other engineers."
+69,Core,"Design software to control robotic systems for applications, such as military defense or manufacturing."
+69,Core,Conduct research on robotic technology to create new robotic systems or system capabilities.
+68,Core,Investigate mechanical failures or unexpected maintenance problems.
+67,Core,"Integrate robotics with peripherals, such as welders, controllers, or other equipment."
+67,Core,Evaluate robotic systems or prototypes.
+67,Core,"Install, calibrate, operate, or maintain robots."
+65,Core,"Conduct research into the feasibility, design, operation, or performance of robotic mechanisms, components, or systems, such as planetary rovers, multiple mobile robots, reconfigurable robots, or man-machine interactions."
+65,Core,"Document robotic application development, maintenance, or changes."
+63,Core,"Design automated robotic systems to increase production volume or precision in high-throughput operations, such as automated ribonucleic acid (RNA) analysis or sorting, moving, or stacking production materials."
+60,Core,Write algorithms or programming code for ad hoc robotic applications.
+55,Core,Make system device lists or event timing charts.
+62,Supplemental,Design or program robotics systems for environmental clean-up applications to minimize human exposure to toxic or hazardous materials or to improve the quality or speed of clean-up operations.
+58,Supplemental,Plan mobile robot paths and teach path plans to robots.
+53,Supplemental,"Design robotics applications for manufacturers of green products, such as wind turbines or solar panels, to increase production time, eliminate waste, or reduce costs."
+43,Supplemental,Automate assays on laboratory robotics.

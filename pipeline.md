@@ -1,10 +1,10 @@
-1. Load documents
+1. Load documents - done
 
-2. Chunk documents
+2. Chunk documents - done
 
-3. Generate embeddings
+3. Generate embeddings - done
 
-4. Store embeddings in vector DB
+4. Store embeddings in vector DB - done
 
 5. Get user query
 
