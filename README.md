@@ -21,6 +21,8 @@ A Retrieval-Augmented Generation (RAG) system that uses ONET occupational data t
 ## Example Query
 
 "What skills do Robotics Engineers need?"
+<img width="2440" height="901" alt="IMG_7611" src="https://github.com/user-attachments/assets/93539ce4-6f60-4e98-984b-bce4c854a2bd" />
+
 
 ## Future Improvements
 
