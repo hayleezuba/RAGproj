@@ -18,6 +18,35 @@ A Retrieval-Augmented Generation (RAG) system that uses ONET occupational data t
 - Ollama
 - LangChain Text Splitters
 
+## Installation Instructions
+
+1. Clone repository
+```
+git clone https://github.com/hayleezuba/RAGproj
+cd RAGproj
+```
+2. Install dependencies
+```
+pip install -r "requirements.txt
+```
+3. Install Ollama and pull model
+Install Ollama and install this model:
+```
+ollama pull llama3.2:1b
+```
+4. Ingest data
+Run the ingestion pipeline to load, chunk, embed, and store the O*NET data in ChromaDB.
+ ```
+python -m RAG.ingestion
+ ```
+5. Run main script
+```
+python main.py
+```
+
+### Notes
+
+This project is still under development, and currently only contains information relevant to robotics engineers from O*NET. Furthter iterations will include data on different careers.
 ## Example Query
 
 "What skills do Robotics Engineers need?"
