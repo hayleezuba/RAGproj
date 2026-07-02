@@ -1,4 +1,4 @@
-1. Load documents - done
+<!-- 1. Load documents - done
 
 2. Chunk documents - done
 
@@ -6,16 +6,16 @@
 
 4. Store embeddings in vector DB - done
 
-5. Get user query
+5. Get user query - done
 
-6. Generate query embedding
+6. Generate query embedding - done
 
-7. Perform similarity search
+7. Perform similarity search - done
 
-8. Retrieve top K chunks
+8. Retrieve top K chunks - done
 
-9. Build prompt
+9. Build prompt - done
 
-10. Send prompt to Ollama
+10. Send prompt to Ollama - done
 
-11. Return answer
+11. Return answer - done -->
