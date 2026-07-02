@@ -29,9 +29,7 @@ import pandas as pd
 from langchain_text_splitters import CharacterTextSplitter # Chunking
 from langchain_core.documents import Document
 from RAG.config import CHROMA_PATH, COLLECTION_NAME 
-from RAG.embedding import embedding_model, embed_query
-
-# from sentence_transformers import SentenceTransformer # Embedding
+from RAG.embedding import embedding_model
 
 # Converts the paths to pandas df, which we can then get the text from
 def csv_to_text(path):

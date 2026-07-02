@@ -1,8 +1,8 @@
 """
 References used: 
-https://prashanth08.medium.com/building-your-retrieval-augmented-generation-rag-for-custom-llms-d5f95ed5ed7a
-https://www.youtube.com/watch?v=GWB9ApTPTv4
-https://ollama.com/library/glm-5.2
+https://prashanth08.medium.com/building-your-retrieval-augmented-generation-rag-for-custom-llms-d5f95ed5ed7a 
+https://www.youtube.com/watch?v=GWB9ApTPTv4 -> concepts and ollama setup
+https://ollama.com/library/glm-5.2 -> ollama docs and model info
 
 """
 
@@ -11,7 +11,6 @@ from ollama import chat
 
 from RAG.retrieval import similarity_search
 from RAG.context_assembly import build_prompt
-from RAG.config import CHROMA_PATH, COLLECTION_NAME
 from RAG.embedding import embedding_model, embed_query
 
 # Sends prompt to LLM
@@ -40,7 +39,7 @@ while query.lower() not in ["bye", "exit"]:
         print("Type bye to end chat")
 
     # Embed Query
-    embedded_query = embedding_model.embed_query(query)
+    embedded_query = embed_query(query)
 
     # Retrive chunks
     chunks = similarity_search(embedded_query)

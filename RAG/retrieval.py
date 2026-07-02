@@ -1,8 +1,8 @@
 """
 References: 
-https://www.geeksforgeeks.org/nlp/rag-architecture/
-https://docs.trychroma.com/docs/collections/manage-collections
-https://docs.trychroma.com/cloud/search-api/ranking 
+https://www.geeksforgeeks.org/nlp/rag-architecture/ -> query structure
+https://docs.trychroma.com/docs/collections/manage-collections -> managing db
+https://docs.trychroma.com/cloud/search-api/ranking -> knn technique
 """
 from langchain_core.documents import Document
 import chromadb
