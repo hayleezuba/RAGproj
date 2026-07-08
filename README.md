@@ -46,7 +46,7 @@ python main.py
 
 ### Notes
 
-This project is still under development, and currently only contains information relevant to robotics engineers from O*NET. Furthter iterations will include data on different careers.
+This project is still under development, and currently only contains information relevant to robotics engineers from O*NET. Further iterations will include data on different careers.
 ## Example Query
 
 "What skills do Robotics Engineers need?"
